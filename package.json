@@ -1,0 +1,36 @@
+{
+	"name": "src",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "nodemon -L src/server.js"
+	},
+	"keywords": [],
+	"author": "MikeTeddyOmondi",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"connect-flash": "^0.1.1",
+		"connect-mongo": "^4.4.1",
+		"dotenv": "^10.0.0",
+		"ejs": "^2.6.1",
+		"express": "^4.16.4",
+		"express-ejs-layouts": "^2.5.0",
+		"express-session": "^1.15.6",
+		"mongoose": "^5.7.5",
+		"morgan": "^1.10.0",
+		"morgan-json": "^1.1.0",
+		"passport": "^0.4.0",
+		"passport-google-oauth20": "^2.0.0",
+		"passport-local": "^1.0.0",
+		"pino-http": "^5.6.0",
+		"serve-favicon": "^2.5.0",
+		"winston": "^3.3.3",
+		"winston-mongodb": "^5.0.7"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
+}
